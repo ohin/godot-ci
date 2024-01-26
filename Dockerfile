@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     adb \
     openjdk-17-jdk-headless \
     rsync \
+    ssh \
     && rm -rf /var/lib/apt/lists/*
 
 ARG GODOT_VERSION="4.2.1"
